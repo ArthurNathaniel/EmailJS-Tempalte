@@ -1,0 +1,42 @@
+.swiper-slide img {
+    height: 350px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 15%;
+    margin-top: 50px;
+}
+
+.contt {
+    width: 85%;
+    box-shadow: #970f132a 0px 3px 8px;
+    padding-block: 30px;
+    text-align: center;
+}
+
+.contt h1 {
+    color: #970f14;
+}
+
+
+@media only screen and (max-width: 1192px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .contt {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1192px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
